@@ -14,16 +14,12 @@
     "test": "mocha"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "1.5.1",
     "eslint-friendly-formatter": "^1.1.0",
     "mocha": "^2.0.1",
     "pre-git": "^0.6.2"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "pre-commit": [
     "npm run lint"
