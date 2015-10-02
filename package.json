@@ -10,7 +10,7 @@
   "author": "uberVU",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js --ext .jsx --format './node_modules/eslint-friendly-formatter' .",
+    "lint": "eslint --ext .js --format './node_modules/eslint-friendly-formatter' .",
     "test": "mocha"
   },
   "dependencies": {
