@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-ubervu",
+  "version": "0.0.0",
+  "description": "ESLint rules applicable to the uberVU org",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "uberVU",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js --ext .jsx --format './node_modules/eslint-friendly-formatter' .",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "1.5.1",
+    "eslint-friendly-formatter": "^1.1.0",
+    "mocha": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "pre-commit": [
+    "npm run lint"
+  ]
+}
