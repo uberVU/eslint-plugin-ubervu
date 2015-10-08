@@ -46,20 +46,20 @@ ruleTester.run('indent-function-args', rule, {
           '    arg2,\n' +
           '       arg3);',
     errors: [{
-      message: 'Indent at 4 spaces.'
+      message: 'Wrong argument indentation. Expected 4 spaces but found 7.'
     }]
   }, {
     code: 'foobar(arg1,\n' +
           '       arg2,\n' +
           '    arg3);',
     errors: [{
-      message: 'Indent at parent parenthesis.'
+      message: 'Wrong argument indentation. Expected 7 spaces but found 4.'
     }]
   }, {
     code: 'var foo = bar(arg1, arg2,\n' +
-          'arg3, arg4);',
+          'arg3);',
     errors: [{
-      message: 'Indent at 4 spaces or paren.'
+      message: 'Indent at 4 spaces or parenthesis.'
     }]
   }]
 });
