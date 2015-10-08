@@ -17,7 +17,6 @@
   "devDependencies": {
     "eslint": "1.5.1",
     "eslint-friendly-formatter": "^1.1.0",
-    "lodash": "^3.10.1",
     "mocha": "^2.0.1",
     "pre-git": "^0.6.2"
   },
