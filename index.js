@@ -14,7 +14,9 @@
 // import all rules in lib/rules
 module.exports = {
   rules: {
+    'indent-function-args': require('./lib/rules/indent-function-args')
   },
   rulesConfig: {
+    'indent-function-args': 0
   }
 };
