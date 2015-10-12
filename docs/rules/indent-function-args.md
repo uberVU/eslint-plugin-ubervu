@@ -2,8 +2,8 @@
 
 ## Rule Details
 
-Check if function arguments are properly indented according to google js
-styleguide.
+Check if function arguments are properly indented according to Google JS
+style guide.
 
 The following patterns are considered warnings:
 
